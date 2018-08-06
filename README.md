@@ -1,7 +1,9 @@
 # EventHubsJava
 EventHub Simulation in Java
 
-## Checkout the Source Files
+# Checkout the Source Files
+
+Use the following command to grab the source files
 
 ```shell
 git clone https://github.com/izzyacademy/EventHubsJava.git
@@ -10,6 +12,8 @@ git clone https://github.com/izzyacademy/EventHubsJava.git
 
 # Setting up the Configurations
 Create the configuration file from the example
+
+Here you will define the namespace (Event Hub Cluster), the event hub (Topic), the identifier for the consumer group, Shared Access Signature Name and Key as well as the Storage Account Name and Key. These values will be used by the consumers and producers of events in our tests.
 
 ```shell
 
