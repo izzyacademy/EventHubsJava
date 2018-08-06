@@ -1,0 +1,23 @@
+
+# Event Hub Namespace (Cluster)
+eventhub.namespace=avigosolutionsdemo
+
+eventhub.consumer.group=firstclass
+
+# Event Hub Name (Topic Name)
+eventhub.topic=orders
+
+# Shared Access Signature Name
+eventhub.sas.name=RootManageSharedAccessKey
+
+# Shared Access Signature Key
+eventhub.sas.key=T5ImG9Om/6JzntJa2gCkZgz+z5ONjgo=
+
+# Storage Account Name
+eventhub.storageaccount.connection=DefaultEndpointsProtocol=https;AccountName=avgsolutions;AccountKey=oKRuTenX9w+cz/+q1Q/6UsPrFg==;EndpointSuffix=core.windows.net
+
+# Storage Account Key
+eventhub.storageaccount.container=vorders
+
+# Folder to store the processed message files
+eventhub.results.outputpath=/mnt/c/Users/isekpo/Documents/Events
